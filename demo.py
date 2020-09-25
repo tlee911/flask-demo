@@ -1,7 +1,7 @@
 import json
 from flask import Flask
-from lib.groups import Grid
-from lib.db import DB
+from libs.groups import Grid
+from libs.db import DB
 
 DATA = (
   [1,1,0,1,0,0],
